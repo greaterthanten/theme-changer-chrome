@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Theme Changer",
+  "description": "Change the theme of a website - live a little!",
+  "version": "1.1",
+
+  "icons": { "16": "icon-16.png", "48": "icon-48.png", "128": "icon-128.png" },
+  
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["jquery.js", "extension-chrome.js"]
+    }
+  ]
+}
