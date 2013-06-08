@@ -10,7 +10,7 @@
   "content_scripts": [
     {
       "matches": ["*://*/*"],
-      "js": ["jquery.js", "extension-chrome.js"]
+      "js": ["jquery-2.0.2.min.js", "theme-changer.min.js"]
     }
   ]
 }
